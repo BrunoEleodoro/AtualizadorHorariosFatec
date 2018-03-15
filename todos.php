@@ -385,7 +385,7 @@
 
 	function seguranca_noturno()
 	{
-		$contents = file_get_contents("novo/seguranca_noturno.csv");
+		$contents = file_get_contents("novo/seguranca_noite.csv");
 		$i = 0;
 		$quebra = 2;
 		$partes = explode("\n",$contents);
